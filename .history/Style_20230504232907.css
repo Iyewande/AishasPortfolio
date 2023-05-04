@@ -205,84 +205,19 @@ h3{
     flex-direction: column;
     background-color:green
   }
-  #header-container{
+  header-container{
     display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
   }
   nav ul li {
-    display: flex;
-    flex-direction: column;
+    margin: 0 10px;
+    display: inline-block;
+    width: 20px;
   }
-  #landingPage{
-    display: flex;
-    flex-direction: column;
-  }
-  #footer{
-    display: flex;
-    flex-direction: column;
-    background-color:green
-  }
+  
 }
 
 @media (min-width:320px) and (max-width:480px) {
-  #landingPage{
-    display: flex;
-    flex-direction: column;
-  }
-  body{
-    background-color:blue
-  }
-  #header{
-    display: flex;
-    flex-direction: column;
-    background-color: skyblue
-  }
-  #header-container{
-    display: flex;
-  justify-content: space-between;
-  align-items: left;
-  }
-  nav ul li {
-    display: flex;
-    flex-direction: column;
-  }
-  #landingPage{
-    display: flex;
-    flex-direction: column;
-  }
-  #footer{
-    display: flex;
-    flex-direction: column;
-    background-color:skyblue
-  }
-}
-
-@media (max-width:767px) {
-  body{
-    background-color:pink
-  }
-  #header{
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(139, 74, 66)
-  }
-  #header-container{
-    display: flex;
-  justify-content: space-between;
-  align-items: left;
-  }
-  nav ul li {
-    display: flex;
-    flex-direction: column;
-  }
-  #landingPage{
-    display: flex;
-    flex-direction: column;
-  }
-  #footer{
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(139, 74, 66)
-  }
+  
 }

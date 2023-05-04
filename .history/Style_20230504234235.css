@@ -230,32 +230,7 @@ h3{
     display: flex;
     flex-direction: column;
   }
-  body{
-    background-color:blue
-  }
-  #header{
-    display: flex;
-    flex-direction: column;
-    background-color: skyblue
-  }
-  #header-container{
-    display: flex;
-  justify-content: space-between;
-  align-items: left;
-  }
-  nav ul li {
-    display: flex;
-    flex-direction: column;
-  }
-  #landingPage{
-    display: flex;
-    flex-direction: column;
-  }
-  #footer{
-    display: flex;
-    flex-direction: column;
-    background-color:skyblue
-  }
+
 }
 
 @media (max-width:767px) {
@@ -279,10 +254,5 @@ h3{
   #landingPage{
     display: flex;
     flex-direction: column;
-  }
-  #footer{
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(139, 74, 66)
   }
 }

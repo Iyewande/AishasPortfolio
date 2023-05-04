@@ -58,9 +58,9 @@ nav ul li a {
 }
 
 #me1{
-  flex: 30%;
-  padding: 10px;
-  width: 100px;
+flex: 30%;
+padding: 10px;
+width: 100px;
 }
 
 #me2{
@@ -168,6 +168,26 @@ header, main {
     padding: 20px;
 }
 
+ /* Default styling for larger screens */
+header, main, footer {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    width: 100%;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  #about img {
+    width: 100%;
+    height: auto;
+  }
+
+}
 /* Footer styles */
 footer{
     background-color: rgb(34, 4, 63);
@@ -186,6 +206,7 @@ nav ul li a:hover {
     color: white;
 }
 
+
 /* Focus Style */
 input:focus {
     background-color: plum;
@@ -194,95 +215,4 @@ input:focus {
 /* Pseudo style */
 h3{
     font-weight: bold;
-}
-
-@media (max-width: 320px){
-  body{
-    background-color:aqua
-  }
-  #header{
-    display: flex;
-    flex-direction: column;
-    background-color:green
-  }
-  #header-container{
-    display: flex;
-  justify-content: space-between;
-  align-items: left;
-  }
-  nav ul li {
-    display: flex;
-    flex-direction: column;
-  }
-  #landingPage{
-    display: flex;
-    flex-direction: column;
-  }
-  #footer{
-    display: flex;
-    flex-direction: column;
-    background-color:green
-  }
-}
-
-@media (min-width:320px) and (max-width:480px) {
-  #landingPage{
-    display: flex;
-    flex-direction: column;
-  }
-  body{
-    background-color:blue
-  }
-  #header{
-    display: flex;
-    flex-direction: column;
-    background-color: skyblue
-  }
-  #header-container{
-    display: flex;
-  justify-content: space-between;
-  align-items: left;
-  }
-  nav ul li {
-    display: flex;
-    flex-direction: column;
-  }
-  #landingPage{
-    display: flex;
-    flex-direction: column;
-  }
-  #footer{
-    display: flex;
-    flex-direction: column;
-    background-color:skyblue
-  }
-}
-
-@media (max-width:767px) {
-  body{
-    background-color:pink
-  }
-  #header{
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(139, 74, 66)
-  }
-  #header-container{
-    display: flex;
-  justify-content: space-between;
-  align-items: left;
-  }
-  nav ul li {
-    display: flex;
-    flex-direction: column;
-  }
-  #landingPage{
-    display: flex;
-    flex-direction: column;
-  }
-  #footer{
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(139, 74, 66)
-  }
 }

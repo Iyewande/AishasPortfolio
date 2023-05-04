@@ -254,7 +254,7 @@ h3{
   #footer{
     display: flex;
     flex-direction: column;
-    background-color:skyblue
+    background-color:green
   }
 }
 
@@ -279,10 +279,5 @@ h3{
   #landingPage{
     display: flex;
     flex-direction: column;
-  }
-  #footer{
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(139, 74, 66)
   }
 }
